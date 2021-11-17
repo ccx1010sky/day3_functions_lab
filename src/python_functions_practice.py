@@ -1,4 +1,4 @@
-import calendar 
+import calendar
 
 def return_10():
 
@@ -28,4 +28,9 @@ def add_string_as_number(str_1, str_2):
 
 def number_to_full_month_name(num):
     return calendar.month_name[num]
+
+def number_to_short_month_name(num):
+    return calendar.month_abbr[num]
+
+
     
