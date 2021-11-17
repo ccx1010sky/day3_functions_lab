@@ -38,4 +38,9 @@ def reverse_string(str):
     return str[::-1]
 
 
+def fahrenheit_to_celsius(Fah):
+    return (Fah-32)*5/9
+
+
+
     
