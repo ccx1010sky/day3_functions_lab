@@ -31,6 +31,11 @@ def number_to_full_month_name(num):
 
 def number_to_short_month_name(num):
     return calendar.month_abbr[num]
+def volume_of_cube(side):
+    return side*side*side
+
+def reverse_string(str):
+    return str[::-1]
 
 
     
